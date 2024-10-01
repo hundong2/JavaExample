@@ -1,0 +1,19 @@
+@startuml
+class TreeMap{
++add(key, value)
++get(key)
+}
+class TreeMapNode{
+    +add(key, value)
+    +find(key)
+}
+interface Comparable{
+
+}
+Object Object{
+}
+TreeMapNode <-- TreeMap : TopNode
+TreeMapNode "2" <-- TreeMapNode : nodes
+Comparable <-- TreeMapNode : itsKey
+"Object" <--  TreeMapNode : itsValue
+@enduml
