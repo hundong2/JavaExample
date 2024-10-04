@@ -5,5 +5,8 @@ public class Main {
         System.out.println("Hello, World!");
         TreeMap treeMap = new TreeMap();
         treeMap.add(1, "one");
+
+        //cloneable 
+        Address address = new Address();
     }
 }
